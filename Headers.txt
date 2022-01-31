@@ -1,0 +1,29 @@
+Request Headers
+User-Agent: PostmanRuntime/7.29.0
+Accept: */*
+Postman-Token: 5b601183-9f2a-4d31-9943-195b11a9d725
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+User Agent is the agent that is running the postman request to the API. Accept is what is being accepted. Postman Token sends a token in the request. The host is where the api is being requested from. The data is encoded with those fields^ and the connection is keep alive rather than closed.
+
+▶
+Response Headers
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 31 Jan 2022 08:17:38 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+
+Content Type is in an application json format. Vary headers are different and the response is Gzip encoded.The data is when the response is given. The server is an ESF server with a private cache control. This Api has the same origin and chunked encode. Max age is 2000 microseconds.
